@@ -1,0 +1,21 @@
+Raspberry PI / Oregon Scientific sensor 
+
+Based on work by:
+
+http://www.disk91.com/2013/technology/hardware/oregon-scientific-sensors-with-raspberry-pi/
+
+Dependencies:
+
+You will also need wiring PI installed
+
+Compile:
+
+run Make
+
+Run:
+
+./test [JSON filename]
+
+optional output to JSON file passed as an argument, file is overwritten on receipt on transmission from sensor, output format:
+
+{"datetime": "2014-02-21 20:35:06", "temperature": "20.600000", "humidity": "49.000000", "channel": "1" } 
